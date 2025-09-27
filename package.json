@@ -1,0 +1,9 @@
+{
+  "name": "bidzy-monorepo",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "docs:update": "python scripts/update-system-guide.py",
+    "docs:check": "python scripts/update-system-guide.py --check"
+  }
+}

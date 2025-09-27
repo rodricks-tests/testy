@@ -1,0 +1,40 @@
+# background-size
+
+Utilities for controlling the background size of an element's background image.
+
+## Untitled
+
+### Untitled
+
+Use the bg-cover utility to scale the background image until it fills the background layer, cropping the image if needed:
+<div class="bg-[url(/img/mountains.jpg)] bg-cover bg-center"></div>
+
+### Untitled
+
+Use the bg-contain utility to scale the background image to the outer edges without cropping or stretching:
+<div class="bg-[url(/img/mountains.jpg)] bg-contain bg-center"></div>
+
+### Untitled
+
+Use the bg-auto utility to display the background image at its default size:
+<div class="bg-[url(/img/mountains.jpg)] bg-auto bg-center bg-no-repeat"></div>
+
+### Untitled
+
+Use the bg-size-[<value>] syntax to set the background size based on a completely custom value:
+<div class="bg-size-[auto_100px] ...">
+<!-- ... -->
+</div>
+For CSS variables, you can also use the bg-size-(<custom-property>) syntax:
+<div class="bg-size-(--my-image-size) ...">
+<!-- ... -->
+</div>
+This is just a shorthand for bg-size-[var(<custom-property>)] that adds the var() function for you automatically.
+
+### Untitled
+
+Prefix a background-size utility with a breakpoint variant like md: to only apply the utility at medium screen sizes and above:
+<div class="bg-auto md:bg-contain ...">
+<!-- ... -->
+</div>
+Borders

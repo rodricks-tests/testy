@@ -1,0 +1,23 @@
+{
+  "need": "animated-background for login page",
+  "goal": "create a visually appealing animated background for the login page ",
+  "keywords": [
+    "animated background",
+    "login page",
+    "visual appeal",
+    "rich",
+    "elegant",
+    "modern"
+  ],
+  "webSiteDate": {
+    "name": "Bidzy",
+    "description": "A platform for online auctions and bidding.",
+    "keywords": ["auctions", "bidding", "online marketplace"]
+  },
+  "target_Users": "Individuals and businesses looking to buy or sell items through online auctions.",
+  "target_Users_Description": "Users who want to participate in online auctions, either as buyers or sellers, and are looking for a reliable platform to facilitate their transactions.",
+  "target_Users_Description_2": "The platform is designed to cater to a wide range of users, from casual buyers and sellers to professional auctioneers and businesses.",
+  "target_Users_Description_3": "It provides a user-friendly interface, secure payment options, and a transparent bidding process to enhance the user experience.",
+  "target_Users_Description_4": "The platform aims to create a vibrant community of auction enthusiasts, where users can easily connect, bid on items, and manage their auctions efficiently."
+}
+

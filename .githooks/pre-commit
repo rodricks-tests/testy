@@ -1,0 +1,7 @@
+#!/bin/sh
+set -euo pipefail
+python scripts/update-system-guide.py
+if git diff --quiet -- SYSTEM_GUIDE.md; then
+  exit 0
+fi
+git add SYSTEM_GUIDE.md

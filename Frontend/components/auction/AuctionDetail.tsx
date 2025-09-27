@@ -266,9 +266,7 @@ export function BiddingSection({
           </h1>
           {auction?.winnerId == user.id && (
             <button
-              onClick={() =>
-                router.push(`/checkout?auctionId=${auction?.id}`)
-              }
+              onClick={handlePlaceBid}
               disabled={user?.id == auction?.sellerId}
               className="w-full bg-yellow-600 hover:bg-yellow-500 text-black font-semibold py-2 rounded-lg"
             >
@@ -395,7 +393,7 @@ export function EndedBiddingSection({
             </div>
 
             <button
-              onClick={() => router.push(`/checkout?auctionId=${auction?.id}`)}
+              onClick={handlePlaceBid}
               disabled={user?.id == auction?.sellerId}
               className="w-full bg-yellow-600 hover:bg-yellow-500 text-black font-semibold py-2 rounded-lg"
             >
